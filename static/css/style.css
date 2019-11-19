@@ -1822,20 +1822,12 @@ a {
 .article-entry h2 {
     margin: 0.5em auto;
     font-weight: bold;
-    color: #9c9;
     padding-bottom: 5px;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
+    text-align: left;
 }
 
 .article-entry h2:hover {
     color: #88acdb;
-}
-
-.article-entry h2::before,
-.article-entry h2::after {
-    content: " —— ";
-    font-family: Arial;
 }
 
 .article-entry h3 {
