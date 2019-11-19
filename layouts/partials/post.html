@@ -212,6 +212,24 @@
 </script>
 {{ end }}
 
+{{ if ($.Site.Params.gitment) }}
+<div id="git-comments"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+  var gitment = new Gitment({
+    id: '{{ .Slug }}',  // 可选, 默认为 location.href
+    owner: 'lanrenwo',
+    repo: 'lanrenwo.github.io',
+    oauth: {
+      client_id: '7714ff1ec487faa3a839',
+      client_secret: '5468202188d6bcd3dc7c98cd54cde2479e9a4a60',
+    }
+  })
+  gitment.render('git-comments')
+</script>
+{{ end }}
+
 <!--评论模块结束-->
 
 
@@ -271,4 +289,3 @@
 <script>
 
 </script>
-

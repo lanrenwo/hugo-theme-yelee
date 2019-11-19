@@ -43,6 +43,7 @@
     "google_analytics": "",
     "fancybox": true,
     "open_in_new": false,
-    "animate": false
+    "animate": false,
+    "gitment": true
   }
 }
