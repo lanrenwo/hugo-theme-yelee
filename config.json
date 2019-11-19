@@ -1,20 +1,18 @@
 {
   "disablePathToLower": true,
   "params": {
-    "author": "NightFarmer",
-    "title": "NightFarmer'blog",
-    "subtitle": "理论指导实践，实践深化理论",
+    "author": "懒人窝",
+    "title": "懒人窝",
+    "subtitle": "心有多大，舞台就有多大！",
     "root_url": "/",
     "avatar": "img/avatar.png",
     "tagcloud": true,
-    "aboutme": "我就是我，是不一样的烟火",
+    "aboutme": "深圳，PHP，Golang，运维，从业10年+",
     "friends": {
-      "友链1": "http://www.baidu.com",
-      "友链2": "http://www.baidu.com"
+      "喵了个咪": "https://hdj.me"
     },
     "subnav": {
-      "Email": "mailto:nightfarmer@163.com",
-      "GitHub": "https://github.com/NightFarmer"
+      "GitHub": "https://github.com/lanrenwo"
     },
     "menu": [
       {
@@ -22,11 +20,11 @@
         "link": "/"
       },
       {
-        "label": "所有文章",
+        "label": "归档",
         "link": "/post/"
       },
       {
-        "label": "标签云",
+        "label": "标签",
         "link": "/tags/"
       },
       {
@@ -44,7 +42,7 @@
     "background_image": 5,
     "google_analytics": "",
     "fancybox": true,
-    "open_in_new": true,
+    "open_in_new": false,
     "animate": false
   }
 }
